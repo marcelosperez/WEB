@@ -35,3 +35,4 @@ The boilerplate in HTML refers to the basic, required code structure that every 
 Most code editors like VS Code have built-in shortcuts to quickly generate this boilerplate. As shown in image below, typing ! and pressing Enter will automatically generate this basic HTML structure for you.
 
 ![alt text](images/image003.png)
+

@@ -95,7 +95,11 @@ The attribute selector targets elements that have a specific attribute, or an at
 
 - Syntax: Use square brackets [ ]. Inside the brackets, you can use just the attribute name, or the attribute name followed by an equal sign and the value in quotes.
 
-- Example 1 (by attribute): p[ draggable ] { color: red; }
+- Example 1 (by attribute): 
+
+```HTML
+p[ draggable ] { color: red; }
+```
 
 ```HTML
 <p draggable="true"> Drag me </p>

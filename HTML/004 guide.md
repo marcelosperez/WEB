@@ -45,32 +45,82 @@ The element selector is the simplest type. It selects all HTML elements with a s
 
 - Syntax: Just use the tag name directly.
 
-- Example: `h1 { color: blue; }`
+```HTML
+<!-- HTML -->
+<h1>Heading 1</h1>
+<p>This is a paragraph.</p>
+<div>This is a div container.</div>
 
-- How it Works: This will find every `<h1>` tag on the page and make the text color blue. If you have three `<h2>` tags and you use h2 { color: red; }, all three will turn red.
+```
 
-## Class Selector (.)
+```CSS
+/* CSS */
+h1 {
+  color: blue;
+  text-align: center;
+}
 
-The class selector is used to select elements based on their class attribute. Classes are the most common way to style groups of elements.
+p {
+  color: orange;
+  font-size: 16px;
+}
+
+div {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+```
+
+- How it Works: This will find every `<h1>` tag on the page and make the text color blue and centered. Every `<p>` element will have orange colored text and font size applied, and every `<div>` will have a border and padding. If there are multiple elements of the same type (e.g., several `<p>` tags), all will be styled the same.
+
+## Class Selector (.) (class)
+
+The class selector is used to select elements based on their class attribute. 
 
 - Syntax: Use a period (.) followed by the class name.
 
-- HTML: `<h2 class="red-text">I'm a heading</h2>`
+```HTML
+<!-- HTML -->
+<h2 class="red-text">I'm a heading</h2>
+<p class="red-text">This paragraph is red too.</p>
+<div class="red-text">This div is red as well.</div>
 
-- CSS: `.red-text { color: red; }`
+```
 
-- How it Works: The selector .red-text will find any HTML element that has class="red-text" and apply the styles. Unlike element selectors, classes allow you to style elements of different types (e.g., a `<p>` and an `<h2>`) with the same rule.
+```CSS
+/* CSS */
+.red-text {
+  color: red;
+  font-weight: bold;
+}
+
+```
+
+- How it Works: The selector .red-text finds all elements with class="red-text" and applies the styles. Unlike an ID which targets a single unique element, classes allow styling multiple elements of different types (like `<h2>, <p>, <div>`) with the same rule.
 
 
-## ID Selector (#)
+## ID Selector (#) (id)
 
 The ID selector is used to select a single, unique element. An ID should only be used once per HTML page.
 
 - Syntax: Use a pound sign (#) followed by the ID name.
 
-- HTML: `<h2 id="main-title">Main Heading</h2>`
+```HTML
+<!-- HTML -->
+<h2 id="main-title">Main Heading</h2>
 
-- CSS: `#main-title { color: red; }`
+```
+
+```CSS
+/* CSS */
+#main-title {
+  color: red;
+  font-size: 28px;
+  text-align: center;
+}
+
+```
 
 - How it Works: The selector #main-title will find the one and only element with id="main-title" and apply the styles. The key difference between an ID and a class is that an ID is for a unique element, while a class can be reused on many elements.
 
@@ -85,9 +135,23 @@ The universal selector is used to select every single HTML element on the page.
 
 - Syntax: Use an asterisk (*).
 
-- Example: * { text-align: center; }
+```HTML
+<!-- HTML -->
+<h1>Heading 1</h1>
+<p>This is a paragraph.</p>
+<a href="#">A link</a>
 
-- How it Works: This will apply the rule to all elements, including headings, paragraphs, lists, and images. It's often used for setting a universal style, like a font family or text alignment for the entire page.
+```
+
+```CSS
+/* CSS */
+* {
+  color: green;
+  font-family: Arial, sans-serif;
+}
+
+```
+- How it Works: This will apply the rule to all elements, including headings, paragraphs, and links, making their text color green and setting the font to Arial. This is often used for applying a global style across the entire document.
 
 ## Attribute Selector
 
@@ -98,18 +162,35 @@ The attribute selector targets elements that have a specific attribute, or an at
 - Example 1 (by attribute): 
 
 ```HTML
-p[ draggable ] { color: red; }
-```
-
-```HTML
+<!-- HTML -->
 <p draggable="true"> Drag me </p>
 <p> don't drag </p>
 <p> don't drag </p>
 ```
 
+```CSS
+/* CSS */
+p[draggable] {
+            color : red;
+             }
+```
+
+
 - Example 2 (by attribute and value): 
 ```HTML
-a[ href="https://google.com" ] { color: blue; }
+<!-- HTML -->
+<a href="https://google.com">Google</a>
+<a href="https://example.com">Example</a>
+<a href="https://google.com">Another Google Link</a>
 ```
+
+```CSS
+/* CSS */
+a[href="https://google.com"] {
+  color: blue;
+}
+```
+
+
 - How it Works: The first example selects all paragraph tags that have the draggable attribute, regardless of its value. The second example is more specific, selecting only `<a>` tags where the href attribute is exactly "https://google.com".
 

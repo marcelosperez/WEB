@@ -11,7 +11,15 @@ From 1 to 6
 ```
 
 # Element
-Element is everything from one tag to another
+An element in HTML is everything from the start tag to the end tag, including all the content in between. It can also include any attributes within the start tag.
+
+An HTML element consists of these parts:
+- Start Tag: The opening tag, like `<h1>`.
+- Content: The text or other elements nested inside, like "Hello World".
+- End Tag: The closing tag, like `</h1>`.
+
+So, the entire `<h1>Hello World</h1>` is a single header element.
+
 ```HTML
 <h1>Hello World</h1>
 ```
@@ -101,7 +109,7 @@ Example:
 ```
 
 # Image elements
-An image element, specified by the `<img>` tag, is used to embed an image into an HTML page. It's a void element, meaning it doesn't have a closing tag and cannot contain content. The most important attribute for an image element is src, which stands for source. This attribute points to the location of the image file, either a URL on the web or a file path on your server.
+An image element, specified by the `<img>` `<img src=?????????????????? alt="MESSAGE">` tag, is used to embed an image into an HTML page. It's a void element, meaning it doesn't have a closing tag and cannot contain content. The most important attribute for an image element is src, which stands for source. This attribute points to the location of the image file, either a URL on the web or a file path on your server.
 
 The alt attribute (short for alternative text) provides a text description of the image. This attribute is crucial for web accessibility and is a best practice for all images.
 

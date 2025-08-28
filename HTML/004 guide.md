@@ -103,7 +103,9 @@ The attribute selector targets elements that have a specific attribute, or an at
 <p> don't drag </p>
 ```
 
-- Example 2 (by attribute and value): a[ href="https://google.com" ] { color: blue; }
-
+- Example 2 (by attribute and value): 
+```HTML
+a[ href="https://google.com" ] { color: blue; }
+```
 - How it Works: The first example selects all paragraph tags that have the draggable attribute, regardless of its value. The second example is more specific, selecting only `<a>` tags where the href attribute is exactly "https://google.com".
 

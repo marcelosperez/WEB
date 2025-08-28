@@ -18,7 +18,7 @@ Element is everything from one tag to another
 
 # Paragraph element
 
-    A paragraph element, denoted by the <p> tag in HTML, is a block-level element used to represent a paragraph of text. It's one of the most fundamental elements for structuring content on a web page. The <p> element automatically adds a blank line before and after the text it contains, visually separating it from other elements.
+A paragraph element, denoted by the `<p>` tag in HTML, is a block-level element used to represent a paragraph of text. It's one of the most fundamental elements for structuring content on a web page. The `<p>` element automatically adds a blank line before and after the text it contains, visually separating it from other elements.
 ```HTML
   <p> Paragraph element </p>
 ```

@@ -102,7 +102,9 @@ The class selector is used to select elements based on their class attribute.
 
 ## ID Selector (#name) (id="name")
 
-The ID selector is used to select a single, unique element. An ID should only be used once per HTML page.
+The ID selector is used to select a single, unique element. 
+
+An ID should only be used once per HTML page.
 
 - Syntax: Use a pound sign (#) followed by the ID name.
 

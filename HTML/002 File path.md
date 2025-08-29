@@ -15,7 +15,7 @@ Relative Paths
 
 A relative path specifies a file's location in relation to the current file. This is a common practice in web development because it's more flexible. It's like giving directions from your current location, such as "turn left at the next street."
 
-![alt text](images/image002.png)
+![image shows path of files](images/image002.png)
 
 Here are a few examples based on the folder structure in the image above and the location of the index.html file:
 
@@ -34,5 +34,5 @@ The boilerplate in HTML refers to the basic, required code structure that every 
 
 Most code editors like VS Code have built-in shortcuts to quickly generate this boilerplate. As shown in image below, typing ! and pressing Enter will automatically generate this basic HTML structure for you.
 
-![alt text](images/image003.png)
+![image shows boilerplate shortcut](images/image003.png)
 

@@ -74,7 +74,7 @@ div {
 
 - How it Works: This will find every `<h1>` tag on the page and make the text color blue and centered. Every `<p>` element will have orange colored text and font size applied, and every `<div>` will have a border and padding. If there are multiple elements of the same type (e.g., several `<p>` tags), all will be styled the same.
 
-## Class Selector (.) (class)
+## Class Selector (.name) (class="name")
 
 The class selector is used to select elements based on their class attribute. 
 
@@ -100,7 +100,7 @@ The class selector is used to select elements based on their class attribute.
 - How it Works: The selector .red-text finds all elements with class="red-text" and applies the styles. Unlike an ID which targets a single unique element, classes allow styling multiple elements of different types (like `<h2>, <p>, <div>`) with the same rule.
 
 
-## ID Selector (#) (id)
+## ID Selector (#name) (id="name")
 
 The ID selector is used to select a single, unique element. An ID should only be used once per HTML page.
 
@@ -124,7 +124,7 @@ The ID selector is used to select a single, unique element. An ID should only be
 
 - How it Works: The selector #main-title will find the one and only element with id="main-title" and apply the styles. The key difference between an ID and a class is that an ID is for a unique element, while a class can be reused on many elements.
 
-## id vs class selector
+## id (#) vs class (.)
 
 - id is applied to one unique element
 - class can be applied to many

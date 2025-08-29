@@ -64,7 +64,7 @@ Individual Border Sides: You can target specific sides of the border using prope
 
 Margin is the transparent space outside the border. It's used to create distance between an element and other elements on the page. Unlike padding, margin does not affect the element's background color.
 
-![box margin](image.png)
+![box margin](../images/image005.png)
 
 Property: Use the "margin" property to set the margin on all four sides. Like padding and border-width, it supports one, two, or four values.
 

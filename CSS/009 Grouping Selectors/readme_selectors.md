@@ -62,11 +62,7 @@ For example, to specifically target a paragraph element that is a direct child o
 
 Chaining selectors applies a style to an element only when all of the chained selectors are true for that single element. There are no spaces between chained selectors. This method is used to create highly specific rules.
 
-Chaining selectors can include element selectors, class selectors, and ID selectors. For example, to style an h1 element that also has a class of big and an ID of title, you would chain them like so: h1.big#title.
-
-When chaining, the element selector (like h1) should always come first to avoid confusion with class or ID names.
-
-Here's an example:
+Chaining selectors can include element selectors, class selectors, and ID selectors. For example, to style an h1 element that also has a class of big and an ID of title, you would chain them like so: 
 
 ```CSS
 /* CSS */
@@ -75,7 +71,7 @@ h1.big#title {
 }
 ```
 
-This rule targets only li (list item) elements that also have the class done and changes their color to seagreen. This distinguishes them from other elements that might have the done class, such as a paragraph (p) tag.
+When chaining, the element selector (like h1) should always come first to avoid confusion with class or ID names.
 
 ## Combining Combinators
 

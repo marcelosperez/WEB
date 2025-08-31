@@ -94,3 +94,18 @@ li.done {
   color: seagreen;
 }
 ```
+
+This rule targets only li (list item) elements that also have the class done and changes their color to seagreen. This distinguishes them from other elements that might have the done class, such as a paragraph (p) tag.
+
+## Combining Combinators
+
+You can also combine different combinators to create even more complex and specific rules. This allows you to select elements based on a combination of ancestor-descendant relationships and specific element properties.
+
+For example, to style a paragraph with the class done that is located inside an unordered list (ul), you can write a selector that combines a descendant selector with a chained selector. This rule below specifies a ul (an unordered list) as an ancestor and then looks for any descendant p element that has the class done.
+
+```CSS
+/* CSS */
+ul p.done {
+  font-size: 0.5rem;
+}
+``` 

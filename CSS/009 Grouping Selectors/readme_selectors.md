@@ -11,26 +11,6 @@ h1, h2 {
 }
 ```
 
-
-Combining CSS selectors allows you to apply styles to specific elements on a webpage without adding new classes or IDs to your HTML. By using various combinators and chaining methods, you can create targeted rules for a cleaner and more efficient stylesheet. ✍️
-
-Grouping Selectors
-Grouping selectors is useful when you want to apply the same styles to multiple different elements. It's done by separating each selector with a 
-
-comma (,). The rule 
-
-
-h1, h2 { color: blueviolet; } will change the text color of all h1 and h2 elements to blueviolet. This method is a great way to save time and reduce redundant code in your CSS file.
-
-
-For example, to make all h1 and h2 headings on a page the same color, you would use:
-
-CSS
-
-h1, h2 {
-  color: blueviolet;
-}
-
 ## Descendant Selector
 The descendant selector targets an element that is a descendant of another element. The two selectors are separated by a single space. This rule applies the style to the descendant element as long as it is nested anywhere inside the ancestor element. This means it can be a child, a grandchild, or even deeper.
 

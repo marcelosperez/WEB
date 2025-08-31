@@ -70,8 +70,8 @@ Here's an example:
 
 ```CSS
 /* CSS */
-li.done {
-  color: seagreen;
+h1.big#title {
+  /* Your styles here */
 }
 ```
 

@@ -77,10 +77,12 @@ When chaining, the element selector (like h1) should always come first to avoid 
 
 You can also combine different combinators to create even more complex and specific rules. This allows you to select elements based on a combination of ancestor-descendant relationships and specific element properties.
 
-For example, to style a paragraph with the class done that is located inside an unordered list (ul), you can write a selector that combines a descendant selector with a chained selector. This rule below specifies a ul (an unordered list) as an ancestor and then looks for any descendant p element that has the class done.
+For example, to style a paragraph p with the class done that is located inside an unordered list (ul), you can write a selector that combines a descendant selector with a chained selector. This rule below specifies a ul (an unordered list) as an ancestor and then looks for any descendant p element that has the class done.
 
 ```CSS
 /* CSS */
+/* Example of ancestor-descendent with chained 
+   selectors to style paragraph p   */
 ul p.done {
   font-size: 0.5rem;
 }

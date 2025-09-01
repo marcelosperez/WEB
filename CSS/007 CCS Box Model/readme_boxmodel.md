@@ -6,6 +6,8 @@
 
 ## The box model consists of four primary components, working from the inside out:
 
+![the box model](../images/image013.png)
+
 ![the box model](../images/image008.png)
 
 ### 1 Content

@@ -89,6 +89,7 @@ The `<div>` element, or "Content Division Element," is a generic, block-level HT
 
 - Example HTML:
 
+
 ```HTML
 <!-- HTML -->
 <body>
@@ -102,16 +103,14 @@ The `<div>` element, or "Content Division Element," is a generic, block-level HT
 </body>
 ```
 
-```CSS
-/* CSS */
-
-```
 Purpose: divs are essential for creating complex layouts. They allow you to apply the box model to a collection of elements, making it easier to control their positioning and spacing relative to other parts of the webpage.
 
 ### Invisible div
 
 There's no point learning about the `<div></div>` before you learn about CSS because these are completely invisible unless you apply CSS Style to it.
 Its purpose is to act like an invisible box that can contain elements
+
+
 
 <br>
 

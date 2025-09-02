@@ -3,6 +3,8 @@
 
 We’ll explore what Flexbox is, why it was created, and how to use it to build modern, flexible, and responsive layouts.
 
+![all inside flexbox](../images/image015.png)
+
 ## A Quick History of Web Layouts
 
 ### 1. Tables for Layout (Old & Wrong)
@@ -79,7 +81,15 @@ Still good for wrapping text around images. Not recommended for full layouts any
 
 ### Enter Flexbox
 
-Flexbox was created to solve these layout problems in a clean and intuitive way. With just a few lines of CSS, you can achieve layouts that used to require hacks.
+Flexbox was created to solve these layout problems in a clean and intuitive way. With just a few lines of CSS, you can achieve layouts that used to require hacks. In the HTML below, Flexbox is activated with display: flex;
+
+When you use Flexbox and you enclose all of the elements that you want to display inside a flexible container, all of these previous display values will be ignored, and instead, we're going to have everything laid out by Flexbox. And the width of each of the elements inside the Flexbox will normally be based on the content size. So it's going to try and let you have all of your content displayed in one line.
+
+![flexbol](../images/image016.png)
+
+By default, when you declare a container to be display: flex, it's going to create a container that is going to be actually more or less like a block element. It's going to be 100% full width.
+
+But there's also this thing where instead of setting the container to be display: flex, you can actually set it to be display: inline-flex, and similarly to the inline-block, what it does is it allows this Flexbox to occupy as much space as it needs, it also means that other things can also occupy that same line.
 
 Example: Simple Flexbox Layout
 

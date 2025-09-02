@@ -3,6 +3,8 @@
 
 The CSS display property is fundamental for controlling the layout of web elements on a page. It determines how an element is rendered and how it interacts with other elements. Understanding the different display values is crucial for building well-structured and responsive websites.
 
+![different display values](../images/image014.png)
+
 There are three common display values you'll encounter as a beginner: block, inline, and inline-block. 
 
 

@@ -1,7 +1,12 @@
 /*
-Here's a classic and educational JavaScript exercise called the "Palindrome Checker." 
-It teaches about strings, loops, and conditionals, and is a common coding interview 
-problem—just like FizzBuzz.
+The "Palindrome Checker" teaches about strings, loops, and conditionals, 
+and is a common coding interview problem.
+cleaned.split('') splits the cleaned string into an array of characters
+Example: "abc" → ["a", "b", "c"]
+.reverse() reverses the order of the array
+Example: ["a", "b", "c"] → ["c", "b", "a"]
+.join('') joins the array back into a single string
+Example: ["c", "b", "a"] → "cba"
 */
 
 function isPalindrome(str) {

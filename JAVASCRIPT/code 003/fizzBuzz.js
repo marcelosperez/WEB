@@ -1,4 +1,3 @@
-
 /*
 FizzBuzz is a classic programming interview question. 
 The task: print numbers from 1 to 100, but for multiples 
@@ -7,14 +6,21 @@ of five print "Buzz", and for multiples of both three and
 five print "FizzBuzz".
 */
 
-for (let i = 1; i <= 100; i++) {
-  if (i % 3 === 0 && i % 5 === 0) {
+let count = 1;
+
+function fizzBuzz() {
+  if (count % 3 === 0 && count % 5 === 0) {
     console.log("FizzBuzz");
-  } else if (i % 3 === 0) {
+  } else if (count % 3 === 0) {
     console.log("Fizz");
-  } else if (i % 5 === 0) {
+  } else if (count % 5 === 0) {
     console.log("Buzz");
   } else {
-    console.log(i);
+    console.log(count);
   }
+  count++;
+}
+
+while (count <= 100) {
+  fizzBuzz();
 }

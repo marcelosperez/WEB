@@ -1,3 +1,12 @@
+
+/*
+Goal:
+Write a JavaScript program that prints the lyrics of the "99 Bottles of Beer" song to the console.
+Challenge:
+Make the function reusable by accepting the starting number as a parameter.
+*/
+
+
 for (let i = 99; i >= 0; i--) {
   if (i > 1) {
     console.log(`${i} bottles of beer on the wall, ${i} bottles of beer.`);
